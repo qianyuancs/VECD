@@ -1,4 +1,4 @@
-#Show Me the Change You Want：Visual Example-Guided Change Detection
+# Show Me the Change You Want: Visual Example-Guided Change Detection
 
 **Visual Example-Guided Change Detection.** Give VECD two before-and-after image pairs: an example showing the change to look for and a query in which to find it. VECD returns a binary mask on the query. No text, example mask, or test-time training is needed.
 
