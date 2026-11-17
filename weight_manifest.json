@@ -1,0 +1,59 @@
+{
+  "architecture": "vecd-uniform-512-no-rgb",
+  "seeds": {
+    "24201": {
+      "file": "24201/model.safetensors",
+      "bytes": 12712956,
+      "sha256": "3af23250f6c04b865cdb701091c9bad23ce55f8d54f52ff89a7ef7e15c399c22",
+      "packaged_config": "configs/inference/seed24201.json",
+      "thresholds": {
+        "set": 0.6500000000000001,
+        "point": 0.7000000000000001,
+        "mask": 0.7000000000000001
+      }
+    },
+    "24202": {
+      "file": "24202/model.safetensors",
+      "bytes": 12712956,
+      "sha256": "e0326b14543d9c486933b9792cc269b6b33b6126fecea119f88c557d46a65b78",
+      "packaged_config": "configs/inference/seed24202.json",
+      "thresholds": {
+        "set": 0.6000000000000001,
+        "point": 0.6000000000000001,
+        "mask": 0.6000000000000001
+      }
+    },
+    "24203": {
+      "file": "24203/model.safetensors",
+      "bytes": 12712956,
+      "sha256": "eb14e9cdc3f77e902fad74d5d615ec5729fb9fd51e7db3ac28bbf066ed5c98ae",
+      "packaged_config": "configs/inference/seed24203.json",
+      "thresholds": {
+        "set": 0.6000000000000001,
+        "point": 0.6000000000000001,
+        "mask": 0.6000000000000001
+      }
+    }
+  },
+  "training_artifacts": {
+    "initialization": {
+      "file": "initialization/model.safetensors",
+      "sha256": "b5750b4217d5fea234a11324582b1fefc335353abbbbe7b7573235428ffdbdfb",
+      "bytes": 12712876
+    },
+    "static": {
+      "file": "static/model.safetensors",
+      "sha256": "39768044a51de269c217ba930fe7e50876e93cd48178f5c4ca913649573e4eb7",
+      "bytes": 12712876
+    },
+    "parent": {
+      "file": "parent/model.safetensors",
+      "sha256": "27c4ce3534214930fbef0a41f25cfe0315204a5163b746fae66df03360a25439",
+      "bytes": 12712876
+    },
+    "prototypes": {
+      "file": "initialization/prototypes.safetensors",
+      "sha256": "9d8e5507b7c903d15b60f28974a79aea40e8b19921a65fd4e9af09e7c6970721"
+    }
+  }
+}

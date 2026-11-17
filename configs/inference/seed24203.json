@@ -1,0 +1,9 @@
+{
+  "architecture": "vecd-uniform-512-no-rgb",
+  "seed": 24203,
+  "model_sha256": "eb14e9cdc3f77e902fad74d5d615ec5729fb9fd51e7db3ac28bbf066ed5c98ae",
+  "thresholds": {"set": 0.6000000000000001, "point": 0.6000000000000001, "mask": 0.6000000000000001},
+  "source_calibration_only": true,
+  "main_inference_mode": "set",
+  "paired_families": ["color", "size", "shape", "material"]
+}

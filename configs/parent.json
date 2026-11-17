@@ -1,0 +1,18 @@
+{
+  "stage": "parent",
+  "seed": 2026102301,
+  "epochs": 4,
+  "manifest": "protocols/records.json",
+  "data_root": "data/prepared",
+  "cache": "cache/features",
+  "initialization": "outputs/static/final.safetensors",
+  "episodes": "protocols/parent_episodes.json",
+  "output": "outputs/parent",
+  "effective_batch": 8,
+  "microbatch": 2,
+  "workers": 2,
+  "lr": 0.0001,
+  "weight_decay": 0.001,
+  "shuffle": false,
+  "save_every": 50
+}

@@ -1,0 +1,20 @@
+{
+  "stage": "mixed",
+  "seed": 24203,
+  "epochs": 20,
+  "manifest": "protocols/records.json",
+  "data_root": "data/prepared",
+  "cache": "cache/features",
+  "initialization": "outputs/parent/final.safetensors",
+  "episodes": "protocols/mixed_episodes.json",
+  "validation": "protocols/validation_episodes.json",
+  "validate_every": 2,
+  "output": "outputs/mixed_24203",
+  "effective_batch": 8,
+  "microbatch": 2,
+  "workers": 2,
+  "lr": 0.0001,
+  "weight_decay": 0.001,
+  "shuffle": true,
+  "save_every": 50
+}

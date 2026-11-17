@@ -1,0 +1,19 @@
+{
+  "stage": "static",
+  "seed": 2026102301,
+  "epochs": 2,
+  "manifest": "protocols/records.json",
+  "data_root": "data/prepared",
+  "cache": "cache/features",
+  "initialization": "weights/initialization/model.safetensors",
+  "prototypes": "weights/initialization/prototypes.safetensors",
+  "frames": "protocols/static_frames.json",
+  "output": "outputs/static",
+  "effective_batch": 4,
+  "microbatch": 1,
+  "workers": 2,
+  "lr": 0.0001,
+  "weight_decay": 0.001,
+  "shuffle": true,
+  "save_every": 50
+}
